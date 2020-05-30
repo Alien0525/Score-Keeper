@@ -33,10 +33,11 @@ button:hover {
   }
 
 input{
-    height: 30px;
+    height: 40px;
     border: 1px solid black;
     background-color: #f8f8f8;
     border-radius: 4px;
+    font-size: 1.3rem;
 }
 
 input:focus{

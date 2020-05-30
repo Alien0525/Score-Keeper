@@ -13,7 +13,7 @@ var gameOver= false;
 var winningScore;
 
 p1.addEventListener("click", function(){
-    if(!gameOver){
+    if(!gameOver && winningScore){
         p1Score++;
         if(p1Score === winningScore){
             gameOver = true;
@@ -26,7 +26,7 @@ p1.addEventListener("click", function(){
 });
 
 p2.addEventListener("click", function(){
-    if(!gameOver){
+    if(!gameOver && winningScore){
         p2Score++;
         if(p2Score === winningScore){
             gameOver = true;
